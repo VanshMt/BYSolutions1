@@ -185,18 +185,18 @@ p
 }
 
 .home .home-banner-1{
-	background-image: url('images/apple.jpg');
+	background-image: url('https://github.com/VanshMt/BYSolutions1/blob/main/images/apple.jpg');
 }
 
 .home .home-banner-2{
-	background-image: url('images/HP\ 3.jpg');
+	background-image: url('https://github.com/VanshMt/BYSolutions1/blob/main/images/HP%203.jpg');
 
 }
 
-.home .home-banner-3{
+/* .home .home-banner-3{
 	background-image: url('images/Lenovo-Logo-1.png');
 
-}
+} */
 .slide{
 	background-repeat: no-repeat;
 	background-size: cover;

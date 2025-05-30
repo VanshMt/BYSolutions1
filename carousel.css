@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  background-color: #f6f4ef;
+}
+
+.logo-carousel {
+  overflow: hidden;
+  background-color: #f6f4ef;
+  padding: 40px 0;
+  width: 200%;
+}
+
+.logo-track {
+  display: flex;
+  animation: scroll-all 10s linear infinite;
+  gap: 20px;
+  align-items: center;
+}
+
+.logo-carousel .logo-track img {
+  height: 100px;      /* Increase this value as needed */
+  margin: 0 12px;     /* Optional: increase spacing if needed */
+  transition: transform 0.3s;
+  border: 2px solid #000; /* Add black border */
+  border-radius: 8px;     /* Optional: rounded corners */
+}
+
+.logo-carousel .logo-track img:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Animation */
+@keyframes scroll-all {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-80%);
+  }
+}
+
+/* Add consistent padding to all main sections */
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
